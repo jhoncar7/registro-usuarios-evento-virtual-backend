@@ -1,4 +1,4 @@
-# Backen-Node-Cascaron
+# Backend-Node-Cascaron-Registro-Eventos
 
 Crear archivo ```.env```
 
