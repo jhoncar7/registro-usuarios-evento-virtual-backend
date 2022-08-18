@@ -1,0 +1,22 @@
+{
+  "name": "evento_virtual",
+  "version": "1.0.0",
+  "description": "registro de usuarios para asistir a eventos virtuales",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.4.0",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.16"
+  }
+}
