@@ -15,7 +15,7 @@ const sendCode = async (email, code, title, name, lastName) => {
 
         // send mail with defined transport object
         let info = await transporter.sendMail({
-            from: `Virtual Event 🚲 <evento-virtual.ar@gmail.com>`, // sender address
+            from: `Virtual Event <evento-virtual.ar@gmail.com>`, // sender address
             to: `${email}`, // list of receivers
             subject: `${title}`, // Subject line
             html: emailTemplate(email, code, title, name, lastName),
